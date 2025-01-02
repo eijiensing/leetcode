@@ -11,6 +11,7 @@ fn main() {
 
     match problem_name.as_str() {
         // <PROBLEMS>
+"two_sum" => problems::two_sum::run(),
         _ => {
             create_new_problem(&problem_name);
             println!("Created new problem {problem_name}");
