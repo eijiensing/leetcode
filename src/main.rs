@@ -11,6 +11,7 @@ fn main() {
 
     match problem_name.as_str() {
         // <PROBLEMS>
+"group_anagrams" => problems::group_anagrams::run(),
 "valid_anagram" => problems::valid_anagram::run(),
 "contains_duplicate" => problems::contains_duplicate::run(),
 "two_sum" => problems::two_sum::run(),
